@@ -1,6 +1,9 @@
 import lab2 from '../assets/lab2.png';
 import lab3 from '../assets/lab3.png';
 import lab4 from '../assets/lab4.png';
+import pharmacy1 from '../assets/pharmacy1.png';
+import pharmacy2 from '../assets/pharmacy2.png';
+import pharmacy3 from '../assets/pharmacy3.png';
 
 export const projects = [
     {
@@ -93,15 +96,15 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Sth-Saha Pharmacy Mobile Application",
+        title: "Seth-Saha Pharmacy Mobile Application",
         category: "Mobile App",
         description: "A convenient mobile application for ordering medicines and managing prescriptions on the go.",
         images: [
-            "https://placehold.co/800x450/f43f5e/white?text=Pharmacy+Home",
-            "https://placehold.co/800x450/881337/white?text=Medicine+List",
-            "https://placehold.co/800x450/fda4af/white?text=Order+Tracking"
+            pharmacy1,
+            pharmacy2,
+            pharmacy3
         ],
-        overview: "Make healthcare accessible with the Sth-Saha Pharmacy app. Users can easily browse medicines, upload prescriptions for quick processing, track their orders in real-time, and get health tips directly on their mobile device.",
+        overview: "Make healthcare accessible with the Seth-Saha Pharmacy app. Users can easily browse medicines, upload prescriptions for quick processing, track their orders in real-time, and get health tips directly on their mobile device.",
         features: [
             "Easy Medicine Search & Ordering",
             "Digital Prescription Upload",
@@ -109,7 +112,7 @@ export const projects = [
             "Secure Payment Options",
             "Health & Wellness Tips"
         ],
-        techStack: ["React Native", "Expo", "Redux", "Node.js"],
+        techStack: ["Android Studio", "Firebase", "Java (Kotlin)", "XML"],
         demoLink: "#",
         repoLink: "#"
     },
@@ -132,6 +135,28 @@ export const projects = [
             "Multi-user Access Control"
         ],
         techStack: ["Electron", "React", "SQLite", "Node.js"],
+        demoLink: "#",
+        repoLink: "#"
+    },
+    {
+        id: 7,
+        title: "Modern Banking App Redesign",
+        category: "UI/UX Design",
+        description: "A comprehensive UI/UX case study focusing on improving the user experience of a traditional banking application.",
+        images: [
+            "https://placehold.co/800x450/e11d48/white?text=App+redesign",
+            "https://placehold.co/800x450/be123c/white?text=User+Flow",
+            "https://placehold.co/800x450/9f1239/white?text=Design+System"
+        ],
+        overview: "This project involves a complete redesign of a mobile banking interface. The goal was to simplify complex financial operations, enhance accessibility, and create a modern, trustworthy visual identity.",
+        features: [
+            "User Research & Persona Development",
+            "Information Architecture & Wireframing",
+            "Interactive High-Fidelity Prototypes",
+            "Design System Creation",
+            "Usability Testing & Iteration"
+        ],
+        techStack: ["Figma", "Adobe XD", "Protopie", "Illustrator"],
         demoLink: "#",
         repoLink: "#"
     }

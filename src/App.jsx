@@ -56,7 +56,7 @@ const Home = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const navigate = useNavigate();
 
-  const categories = ['All', 'Web Applications', 'Mobile App', 'Desktop Applications'];
+  const categories = ['All', 'Web Applications', 'Mobile App', 'Desktop Applications', 'UI/UX Design'];
 
   const filteredProjects = activeCategory === 'All'
     ? projects
