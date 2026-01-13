@@ -1,3 +1,7 @@
+import lab2 from '../assets/lab2.png';
+import lab3 from '../assets/lab3.png';
+import lab4 from '../assets/lab4.png';
+
 export const projects = [
     {
         id: 6,
@@ -5,9 +9,9 @@ export const projects = [
         category: "Web Applications",
         description: "A comprehensive system for managing laboratory inventory, equipment scheduling, and safety compliance.",
         images: [
-            "https://placehold.co/800x450/4f46e5/white?text=Lab+Dashboard",
-            "https://placehold.co/800x450/4338ca/white?text=Inventory+Tracker",
-            "https://placehold.co/800x450/3730a3/white?text=Equipment+Scheduling"
+            lab2,
+            lab3,
+            lab4
         ],
         overview: "This Laboratory Management System streamlines daily operations in research and educational labs. It tracks chemical inventory, manages equipment bookings, ensures safety compliance through digital checklists, and generates usage reports.",
         features: [
@@ -89,21 +93,21 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Fitness Tracker Mobile App",
+        title: "Sth-Saha Pharmacy Mobile Application",
         category: "Mobile App",
-        description: "A cross-platform mobile application to track daily fitness activities and diet.",
+        description: "A convenient mobile application for ordering medicines and managing prescriptions on the go.",
         images: [
-            "https://placehold.co/800x450/f43f5e/white?text=Mobile+Home",
-            "https://placehold.co/800x450/881337/white?text=Workout+Log",
-            "https://placehold.co/800x450/fda4af/white?text=Progress+Stats"
+            "https://placehold.co/800x450/f43f5e/white?text=Pharmacy+Home",
+            "https://placehold.co/800x450/881337/white?text=Medicine+List",
+            "https://placehold.co/800x450/fda4af/white?text=Order+Tracking"
         ],
-        overview: "Stay fit and healthy with this all-in-one fitness tracking application. Users can log workouts, track calories, and view progress over time through intuitive graphs and stats.",
+        overview: "Make healthcare accessible with the Sth-Saha Pharmacy app. Users can easily browse medicines, upload prescriptions for quick processing, track their orders in real-time, and get health tips directly on their mobile device.",
         features: [
-            "Activity Logging (Running, Cycling, Gym)",
-            "Calorie Counter & Diet Tracker",
-            "Goal Setting & Progress Visualization",
-            "Social Sharing Features",
-            "Offline Mode"
+            "Easy Medicine Search & Ordering",
+            "Digital Prescription Upload",
+            "Real-time Order Tracking",
+            "Secure Payment Options",
+            "Health & Wellness Tips"
         ],
         techStack: ["React Native", "Expo", "Redux", "Node.js"],
         demoLink: "#",
