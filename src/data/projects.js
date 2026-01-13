@@ -1,5 +1,27 @@
 export const projects = [
     {
+        id: 6,
+        title: "Lab Management System",
+        category: "Web Applications",
+        description: "A comprehensive system for managing laboratory inventory, equipment scheduling, and safety compliance.",
+        images: [
+            "https://placehold.co/800x450/4f46e5/white?text=Lab+Dashboard",
+            "https://placehold.co/800x450/4338ca/white?text=Inventory+Tracker",
+            "https://placehold.co/800x450/3730a3/white?text=Equipment+Scheduling"
+        ],
+        overview: "This Laboratory Management System streamlines daily operations in research and educational labs. It tracks chemical inventory, manages equipment bookings, ensures safety compliance through digital checklists, and generates usage reports.",
+        features: [
+            "Chemical & Equipment Inventory Tracking",
+            "Real-time Equipment Booking System",
+            "Safety Data Sheet (SDS) Management",
+            "User Role Management (Admin, Staff, Student)",
+            "Automated Low-Stock Alerts"
+        ],
+        techStack: ["React", "Node.js", "MongoDB", "Express", "Material UI"],
+        demoLink: "#",
+        repoLink: "#"
+    },
+    {
         id: 1,
         title: "E-Commerce Platform",
         category: "Web Applications",

@@ -1,3 +1,4 @@
+import profileImg from "./assets/profile.jpeg";
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import {
@@ -108,9 +109,8 @@ const Home = () => {
         <div className="hero-visual">
           <div className="glow-circle"></div>
           <div className="image-placeholder">
-            <div className="placeholder-content">
-              {/* Insert Image Here */}
-            </div>
+            <img src={profileImg} alt="Thisarani Profile" />
+
           </div>
         </div>
       </section>
