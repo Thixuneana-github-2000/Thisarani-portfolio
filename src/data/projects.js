@@ -97,29 +97,7 @@ export const projects = [
         repoLink: "https://www.figma.com/design/CcSwoH8E0nMSmPq5iu8slF/Research-Updated-version---emotion-based-search-engine?node-id=1126-2&t=Brmde9yu1btPYoJb-0"
     },
     {
-        id: 5,
-        title: "E-Commerce Platform",
-        category: "Web Applications",
-        description: "A full-stack shopping application with cart functionality, user authentication, and payment integration.",
-        images: [
-            "https://placehold.co/800x450/3b82f6/white?text=Main+Dashboard",
-            "https://placehold.co/800x450/1e293b/white?text=Product+Page",
-            "https://placehold.co/800x450/64748b/white?text=Cart+View"
-        ],
-        overview: "This comprehensive e-commerce solution provides a seamless shopping experience. Built with a focus on web performance and user accessibility, it allows users to browse products, manage their cart, and securely checkout.",
-        features: [
-            "User Authentication (Login/Register)",
-            "Product Search and Filtering",
-            "Shopping Cart with Persistent State",
-            "Secure Payment Gateway Integration",
-            "Admin Dashboard for Product Management"
-        ],
-        techStack: ["React", "Node.js", "MongoDB", "Express", "Redux"],
-        demoLink: "#",
-        repoLink: "#"
-    },
-    {
-        id: 7,
+        id: 6,
         title: "Weather Dashboard",
         category: "Web Applications",
         description: "Real-time weather application connecting to external APIs to display forecasts with beautiful visualizations.",
