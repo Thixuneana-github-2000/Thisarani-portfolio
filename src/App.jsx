@@ -54,6 +54,7 @@ const ProjectCard = ({ project, onClick }) => (
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeCategory, setActiveCategory] = useState('All');
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
 
   const categories = ['All', 'Web Applications', 'Mobile App', 'Desktop Applications', 'UI/UX Design'];
@@ -70,18 +71,27 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleMobileMenuClick = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className="app-container">
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-content">
           <div className="logo">Thisarani<span className="text-primary">.</span></div>
-          <div className="nav-links">
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-            <a href="#contact" className="contact-btn">Hire Me</a>
+          <button className="mobile-menu-btn" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div className={`nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
+            <a href="#home" onClick={handleMobileMenuClick}>Home</a>
+            <a href="#projects" onClick={handleMobileMenuClick}>Projects</a>
+            <a href="#services" onClick={handleMobileMenuClick}>Services</a>
+            <a href="#skills" onClick={handleMobileMenuClick}>Skills</a>
+            <a href="#contact" onClick={handleMobileMenuClick}>Contact</a>
+            <a href="#contact" className="contact-btn" onClick={handleMobileMenuClick}>Hire Me</a>
           </div>
         </div>
       </nav>
